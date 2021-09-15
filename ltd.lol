@@ -24,20 +24,19 @@ OBTW
 							BUKKIT METHODS
 TLDR
 BTW init a list
-HOW IZ I init_list YR arr AN YR size
+HOW IZ I init_list YR list AN YR size
 	I HAS A i ITZ 0
 	IM IN YR loop UPPIN YR i TIL BOTH SAEM i AN size
-		arr HAS A SRS i ITZ FAIL
+		list HAS A SRS i ITZ FAIL
 	IM OUTTA YR loop
-	arr HAS A SRS "len" ITZ 0
+	list HAS A SRS "len" ITZ 0
 IF U SAY SO
 
 BTW append element to a list
-HOW IZ I append YR arr AN YR elem
-	I HAS A tmp
-	I HAS A len ITZ arr'Z SRS "len"
-	arr'Z SRS len R elem
-	arr'Z SRS "len" R SUM OF len AN 1  
+HOW IZ I append YR list AN YR elem
+	I HAS A len ITZ list'Z SRS "len"
+	list'Z SRS len R elem
+	list'Z SRS "len" R SUM OF len AN 1  
 IF U SAY SO
 
 BTW remove element by index and shift a list
